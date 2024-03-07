@@ -6,7 +6,8 @@ edition = "2021"
 [workspace]
 
 [dependencies]
-bytes = { version = "1.4.0" }
+bytes = { version = "1.5" }
+core = { path = "../../core" }
 move-compiler = { git = "https://github.com/MovedNetwork/aptos-core/", branch = "no-std-move" }
 move-core-types = { git = "https://github.com/MovedNetwork/aptos-core/", branch = "no-std-move" }
 move-vm-runtime = { git = "https://github.com/MovedNetwork/aptos-core/", branch = "no-std-move" }
