@@ -8,8 +8,10 @@ edition = "2021"
 [dependencies]
 bytes = { version = "1.5" }
 core = { path = "../../core" }
+move-binary-format = { git = "https://github.com/MovedNetwork/aptos-core/", branch = "no-std-move" }
 move-compiler = { git = "https://github.com/MovedNetwork/aptos-core/", branch = "no-std-move" }
 move-core-types = { git = "https://github.com/MovedNetwork/aptos-core/", branch = "no-std-move" }
 move-vm-runtime = { git = "https://github.com/MovedNetwork/aptos-core/", branch = "no-std-move" }
 move-vm-test-utils = { git = "https://github.com/MovedNetwork/aptos-core/", branch = "no-std-move" }
+risc0-smt = { git = "ssh://git@github.com/MovedNetwork/risc0-smt.git", rev = "1a6403447240e1f917d7e88379447b7fddf8ccea" }
 risc0-zkvm = { version = "0.21", default-features = false, features = ['std'] }
