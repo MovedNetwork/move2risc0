@@ -10,6 +10,7 @@ anyhow = "1"
 bytes = {  version = "1.5.0", features = ["serde"]}
 move-compiler = { git = "https://github.com/MovedNetwork/aptos-core/", branch = "no-std-move" }
 move-core-types = { git = "https://github.com/MovedNetwork/aptos-core/", branch = "no-std-move" }
+risc0-smt = { git = "ssh://git@github.com/MovedNetwork/risc0-smt.git", rev = "1a6403447240e1f917d7e88379447b7fddf8ccea" }
 risc0-zkvm = { version = "0.21" }
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 serde = "1.0"
